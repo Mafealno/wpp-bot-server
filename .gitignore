@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# arquivos pessoais
+doc_type_messages.js

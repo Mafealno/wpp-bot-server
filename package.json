@@ -1,0 +1,32 @@
+{
+  "name": "wpp-bot",
+  "version": "1.0.0",
+  "description": "chatbot whatsapp",
+  "main": "index.js",
+  "nodemonConfig": {
+    "ignore": [
+      "tokens/*",
+      "index.js",
+      ".vscode/*"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@firebase/firestore-types": "^2.5.0",
+    "@google-cloud/dialogflow": "^4.7.0",
+    "@types/dialogflow": "^4.0.4",
+    "@wppconnect-team/wppconnect": "^1.12.8",
+    "dialogflow": "^1.2.0",
+    "firebase-admin": "^10.0.2",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
+}
