@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node index.ts",
+    "start": "node -r ts-node/register --max_old_space_size=2560 index.ts",
     "dev": "nodemon index.ts"
   },
   "author": "",
