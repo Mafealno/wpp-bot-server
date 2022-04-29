@@ -8,7 +8,7 @@ export const formatPhoneNmuber = (phoneNumber : string) : string => {
 
 export const replaceGreeting = (texto : string) : string  => {
     let response = texto.replace("{{cumprimento}}", () => {
-        let h = parseInt(new Date().toLocaleTimeString('pt-BR', {hour: 'numeric', hour12: false}));
+        let h = parseInt(new Date().toLocaleTimeString('pt-BR', {hour: 'numeric', hour12: false})) - 3;
         if (h >= 0 && h <= 5) {
             return 'Boa madrugada';
         } else if (h >= 6 && h < 12) {
