@@ -4,7 +4,6 @@ import { resolveMessage } from "./src/services/message";
 import { saveSteps } from "./src/services/step";
 const stepsJson = require("./passos.json"); 
 
-
 const start = async () => {
     const client = await create({
         session: 'wpp-bot',
