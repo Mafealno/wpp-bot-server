@@ -22,6 +22,7 @@ const start = async () => {
             }
         },
         puppeteerOptions: { 
+            args: ['--no-sandbox'],
             userDataDir: './tokens/wpp-bot',
         }
     });
