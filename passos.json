@@ -85,35 +85,35 @@
     {
         "id": "menu_principal_1_1",
         "tipo": "simples",
-        "texto": "*Grade Curricular*\n\nO curso está dividido em cinco módulos, sendo três deles técnicos, um sobre cores e outro de gestão de negócio.\n\nSegunda _ Aula 1: \n-> Tecnologia de Tintas – NBR 15.079\n\nTerça_ Aula 2: \n-> Preparação de Superfícies – NBR 13.245\n\nQuarta_ Aula 3:\n-> Ciências das Cores\n\nQuinta_ Aula 4:\n-> Patologias em Superfícies de Tinta – NBR 13.245\n\nSexta_ Aula 5:\n-> Gestão de Negócios, Segurança e Meio Ambiente – NBR 15.927",
-        "proximo_passo": "menu_voltar_1_1",
+        "texto": "*Grade Curricular*\n\nO curso está dividido em cinco módulos, sendo três deles técnicos, um sobre cores e outro de gestão de negócio.\n\nAula 1: \n-> Tecnologia de Tintas – NBR 15.079\n\nAula 2: \n-> Preparação de Superfícies – NBR 13.245\n\nAula 3:\n-> Ciências das Cores\n\nAula 4:\n-> Patologias em Superfícies de Tinta – NBR 13.245\n\nAula 5:\n-> Gestão de Negócios, Segurança e Meio Ambiente – NBR 15.927",
+        "proximo_passo": "menu_principal_1_te_ajudo_mais",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_2",
         "tipo": "simples",
         "texto": "*Valor*\n\nO valor do curso à vista será de R$ 399,00 ou R$ 450,00 dividido em três vezes.\nPodendo ser realizado o pagamento em até 10 vezes, mas nessa condição haverá juros",
-        "proximo_passo": "menu_voltar_1_1",
+        "proximo_passo": "menu_principal_1_te_ajudo_mais",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_3",
         "tipo": "simples",
-        "texto": "*Material Didádico*\n\nO aluno irá receber uma apostila da Pintou Conhecimento com parte do conteúdo do curso. Essa apostila é pessoal e intransferível.\nO curso se dará em sala de aula online com materiais de PowerPoint preparados exclusivamente para o curso.\n\n*Importante:*\n\nO material de PowerPoint usado em sala de aula, não será fornecido em hipótese alguma para o aluno, o aluno também não poderá filmar e nem fotografar o conteúdo. \nO material de PowerPoint da Pintou Conhecimento é protegido por direitos autorais de acordo com a lei.",
-        "proximo_passo": "menu_voltar_1_1",
+        "texto": "*Material Didádico*\n\nO aluno irá receber um manual da Pintou Conhecimento com parte do conteúdo do curso. Este manual é pessoal e intransferível.\nO curso se dará em sala de aula online com materiais de PowerPoint preparados exclusivamente para o curso.\n\n*Importante:*\nO material de PowerPoint usado em sala de aula, não será fornecido em hipótese alguma para o aluno, o aluno também não poderá filmar e nem fotografar o conteúdo. \nO material de PowerPoint da Pintou Conhecimento é protegido por direitos autorais de acordo com a lei.",
+        "proximo_passo": "mais_informacoes",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_4",
         "tipo": "simples",
-        "texto": "Mensagem placeholder horário",
-        "proximo_passo": "menu_voltar_1_1",
+        "texto": "*Horário das aulas*\n\nSegunda à sexta-feira das 19:00 as 22:30",
+        "proximo_passo": "menu_principal_1_te_ajudo_mais",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_5",
         "tipo": "simples",
-        "texto": "*Certificado de Conclusão*\n\nO aluno que concluiu o curso receberá um certificado de conclusão, que terá validade nacional como curso de especialização técnico profissionalizante. Assinado por um Químico Responsável com ênfase em licenciatura e com CRQ ativo junto ao CRQ IV Região.\n\n A seguir o modelo do nosso certificado:",
+        "texto": "*Certificado de Conclusão*\n\nO aluno que concluiu o curso receberá um certificado de conclusão, que terá validade nacional como curso de especialização profissionalizante. Assinado por um Químico Responsável com ênfase em licenciatura e com CRQ ativo junto ao CRQ IV Região.\n\n A seguir o modelo do nosso certificado:",
         "proximo_passo": "menu_principal_1_5_imagem_frente",
         "proximo_passo_imediato": true
     },
@@ -128,28 +128,21 @@
         "id": "menu_principal_1_5_imagem_verso",
         "tipo": "imagem",
         "url_imagem": "http://www.pintouconhecimento.com.br/img/certificado_verso.jpeg",
-        "proximo_passo": "menu_voltar_1_1",
+        "proximo_passo": "menu_principal_1_te_ajudo_mais",
         "proximo_passo_imediato": true
-    },
-    {
-        "id": "menu_voltar_1_1",
-        "tipo": "lista",
-        "texto": "Escolha para onde deseja voltar",
-        "voltar_anterior": "menu_principal_1",
-        "voltar_inicial": "menu_principal"
     },
     {
         "id": "menu_principal_2",
         "tipo": "simples",
         "texto": "*Como funciona?*\n\nO curso é online com professor ao vivo, isto é, você estará diretamente interagindo com professor no ambiente online, qualquer dúvida o questionamento pode ser resolvido diretamente ao vivo com professor.\nPor ser online, o curso terá abrangência nacional. Podendo qualquer pessoa de qualquer lugar do Brasil realizar o curso.",
-        "proximo_passo": "te_ajudo_mais",
+        "proximo_passo": "menu_principal_te_ajudo_mais",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_3",
         "tipo": "simples",
-        "texto": "*Matrícula*\n\nAcesse o site:\n\nwww.pintouconhecimento.com.br/matricula.php\n\nPreencha a ficha de cadastro, escolha a forma de pagamento e conclua sua inscrição.\nVocê receberá o e-mail da Pintou Conhecimento, confirmando sua inscrição.",
-        "proximo_passo": "te_ajudo_mais",
+        "texto": "*Matrícula*\n\nAcesse o site:\n\nwww.pintouconhecimento.com.br/matricula.php\n\nPreencha a ficha de cadastro para fazer sua pré inscrição e garantir sua vaga.\nVocê receberá o e-mail da Pintou Conhecimento, confirmando sua pré inscrição.",
+        "proximo_passo": "menu_principal_te_ajudo_mais",
         "proximo_passo_imediato": true
     },
     {
@@ -159,39 +152,53 @@
         "texto": "Acesso o site e saiba mais",
         "url": "www.pintouconhecimento.com.br",
         "url_imagem": "https://scontent.fcgh23-1.fna.fbcdn.net/v/t39.30808-6/246401150_101748128976590_4033386997910680898_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-5&_nc_sid=36a2c1&_nc_ohc=KJI77atnexoAX8_WZMn&_nc_ht=scontent.fcgh23-1.fna&oh=00_AT_CumVXSEP_O78BadRIUDeF5xh5h84p0RC6kn6mDVzlWw&oe=62486A9E",
-        "proximo_passo": "te_ajudo_mais",
+        "proximo_passo": "menu_principal_te_ajudo_mais",
         "proximo_passo_imediato": true
     },
-    {
-        "id": "te_ajudo_mais",
-        "tipo": "simples",
+	{
+        "id": "menu_principal_te_ajudo_mais",
+        "tipo": "lista",
         "texto": "Podemos te ajudar em algo mais?",
-        "proximo_passo": "valida_sim_ou_nao_te_ajudo_mais"
-    },
-    {
-        "id": "valida_sim_ou_nao_te_ajudo_mais",
-        "tipo": "valida_sim_ou_nao",
-        "proximo_passo_imediato": true,
         "opcoes": [
             {
-                "id": "sim",
+                "id": "te_ajudo_mais_sim",
+                "titulo": "Sim",
+                "descricao": "",
                 "proximo_passo": "menu_principal"
             },
             {
-                "id": "nao",
+                "id": "te_ajudo_mais_nao",
+                "titulo": "Não",
+                "descricao": "",
                 "proximo_passo": "msg_final"
+            }
+		]
+	},
+    {
+        "id": "menu_principal_1_te_ajudo_mais",
+        "tipo": "lista",
+        "texto": "Podemos te ajudar em algo mais?",
+        "opcoes": [
+            {
+                "id": "te_ajudo_mais_sim",
+                "titulo": "Sim",
+                "descricao": "",
+                "proximo_passo": "menu_principal_1"
             },
             {
-                "id": "nao_entendimento",
-                "proximo_passo": "valida_sim_ou_nao_te_ajudo_mais_nao_entendimento"
+                "id": "te_ajudo_mais_nao",
+                "titulo": "Não",
+                "descricao": "",
+                "proximo_passo": "msg_final"
             }
-        ]
-    },
-    {
-        "id": "valida_sim_ou_nao_te_ajudo_mais_nao_entendimento",
+		]
+	},
+	{
+        "id": "mais_informacoes",
         "tipo": "simples",
-        "texto": "Não entendi, podemos te ajudar com algo mais?",
-        "proximo_passo": "valida_sim_ou_nao_te_ajudo_mais"
+        "texto": "Para mais informações, acesse o site:\n\nwww.pintouconhecimento.com.br",
+        "proximo_passo": "menu_principal_1_te_ajudo_mais",
+        "proximo_passo_imediato": true
     },
     {
         "id": "msg_final",
