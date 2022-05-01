@@ -141,7 +141,7 @@
     {
         "id": "menu_principal_3",
         "tipo": "simples",
-        "texto": "*Matrícula*\n\nAcesse o site:\n\nwww.pintouconhecimento.com.br/matricula.php\n\nPreencha a ficha de cadastro para fazer sua pré inscrição e garantir sua vaga.\nVocê receberá o e-mail da Pintou Conhecimento, confirmando sua pré inscrição.",
+        "texto": "*Matrícula*\n\nAcesse o site:\n\nwww.pintouconhecimento.com.br/matricula.php\n\nPreencha a ficha de cadastro para fazer sua pré inscrição e garantir sua vaga.",
         "proximo_passo": "menu_principal_te_ajudo_mais",
         "proximo_passo_imediato": true
     },
@@ -203,7 +203,7 @@
     {
         "id": "msg_final",
         "tipo": "simples",
-        "texto": "Nós da Pintou Conhecimento agrademos seu contato e até a próxima",
+        "texto": "O curso Pintou Conhecimento agradece seu contato e até a próxima.",
         "proximo_passo": "inicial"
     }
 ]
