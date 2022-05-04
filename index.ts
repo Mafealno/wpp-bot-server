@@ -11,15 +11,19 @@ const start = async () => {
         autoClose: 0,
         disableWelcome: true,
         statusFind : async (statusSession, session) => {
-            switch(statusSession){
-                case "isLogged":
-                    await sendMailConnect();
-                    break;
-                case "notLogged":
-                    await sendMailDisconnect();
-                    break;
-                default:
-                    console.log(statusSession);
+            if(!process.env.DEVELOPMENT_ENVIRONMENT){
+                switch(statusSession){
+                    case "isLogged":
+                        await sendMailConnect();
+                        console.log(statusSession);
+                        break;
+                    case "notLogged":
+                        await sendMailDisconnect();
+                        console.log(statusSession);
+                        break;
+                    default:
+                        console.log(statusSession);
+                }
             }
         },
         puppeteerOptions: { 
@@ -29,9 +33,13 @@ const start = async () => {
     });
     
     client.onMessage(message => resolveMessage(message, client));
-    
-    client.startPhoneWatchdog();
+    return client;
 }
 
-start();
+start().then((data) => {
+    setInterval(() => {
+        data.startPhoneWatchdog()
+        console.log("CONEXÃO VERIFICADA")
+    }, 10000)
+});
 //saveSteps(stepsJson);
