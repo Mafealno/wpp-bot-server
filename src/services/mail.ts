@@ -4,9 +4,9 @@ const transport = createTransportMail();
 
 export const sendMailDisconnect = async () => {
     try {
-        const response = await transport.sendMail({
+        await transport.sendMail({
             from: 'Wpp-Bot Mail <wpp-bot@wpp-bot.com>',
-            to: "mafealno@gmail.com",
+            to: process.env.SMTP_USER,
             subject: "O bot está deconectado",
             text: "Wpp-Bot Descosnectado",
         })
@@ -17,9 +17,9 @@ export const sendMailDisconnect = async () => {
 
 export const sendMailConnect = async () => {
     try {
-        const response = await transport.sendMail({
+        await transport.sendMail({
             from: 'Wpp-Bot Mail <wpp-bot@wpp-bot.com>',
-            to: "mafealno@gmail.com",
+            to: process.env.SMTP_USER,
             subject: "O bot está conectado",
             text: "Wpp-Bot conectado",
         })
