@@ -105,3 +105,4 @@ dist
 
 # arquivos pessoais
 doc_type_messages.js
+.tokens/
