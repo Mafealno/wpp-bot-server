@@ -100,7 +100,7 @@
         "id": "menu_principal_1_2",
         "tipo": "simples",
         "texto": "*Valor*\n\nO valor do investimento do curso será de R$499,00.",
-        "proximo_passo": "faca_matricula_menu_principal_1",
+        "proximo_passo": "faca_matricula_menu_principal",
         "proximo_passo_imediato": true
     },
     {
@@ -114,7 +114,7 @@
         "id": "menu_principal_1_4",
         "tipo": "simples",
         "texto": "*Horário das aulas*\n\nSegunda à sexta-feira das 19:00 as 22:30",
-        "proximo_passo": "faca_matricula_menu_principal_1",
+        "proximo_passo": "faca_matricula_menu_principal",
         "proximo_passo_imediato": true
     },
     {
@@ -135,7 +135,7 @@
         "id": "menu_principal_1_5_imagem_verso",
         "tipo": "imagem",
         "url_imagem": "http://www.pintouconhecimento.com.br/img/certificado_verso.jpeg",
-        "proximo_passo": "faca_matricula_menu_principal_1",
+        "proximo_passo": "faca_matricula_menu_principal",
         "proximo_passo_imediato": true
     },
     {
@@ -195,14 +195,14 @@
         "id": "mais_informacoes_menu_principal_1_1",
         "tipo": "simples",
         "texto": "Para mais informações, acesse o link abaixo e veja grade completa:\n\nhttp://pintouconhecimento.com.br/grade.pdf",
-        "proximo_passo": "faca_matricula_menu_principal_1",
+        "proximo_passo": "faca_matricula_menu_principal",
         "proximo_passo_imediato": true
     },
 	{
         "id": "mais_informacoes_menu_principal_1_3",
         "tipo": "simples",
         "texto": "Para mais informações, acesse o site:\n\nwww.pintouconhecimento.com.br",
-        "proximo_passo": "faca_matricula_menu_principal_1",
+        "proximo_passo": "faca_matricula_menu_principal",
         "proximo_passo_imediato": true
     },
     {
@@ -210,13 +210,6 @@
         "tipo": "simples",
         "texto": "*Não perca tempo, faça sua pré inscrição agora mesmo acessando o link abaixo:*\n\nwww.pintouconhecimento.com.br/matricula.php",
         "proximo_passo": "msg_te_ajudo_mais",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "faca_matricula_menu_principal_1",
-        "tipo": "simples",
-        "texto": "*Não perca tempo, faça sua pré inscrição agora mesmo acessando o link abaixo:*\n\nwww.pintouconhecimento.com.br/matricula.php",
-        "proximo_passo": "menu_principal_1_te_ajudo_mais",
         "proximo_passo_imediato": true
     },
     {
