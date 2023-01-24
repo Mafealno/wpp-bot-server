@@ -29,7 +29,8 @@ const start = async () => {
                 }
             }
         },
-        puppeteerOptions: { 
+        puppeteerOptions: {
+            ignoreDefaultArgs: process.env.DEVELOPMENT_ENVIRONMENT ? true : false,
             args: ['--no-sandbox'],
             userDataDir: './tokens/wpp-bot',
         }
