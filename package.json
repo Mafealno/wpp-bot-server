@@ -22,7 +22,7 @@
     "@google-cloud/dialogflow": "^4.7.0",
     "@types/dialogflow": "^4.0.4",
     "@types/nodemailer": "^6.4.6",
-    "@wppconnect-team/wppconnect": "^1.16.1",
+    "@wppconnect-team/wppconnect": "^1.20.0",
     "dialogflow": "^1.2.0",
     "dotenv": "^16.0.2",
     "firebase-admin": "^10.3.0",
