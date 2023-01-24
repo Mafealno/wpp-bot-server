@@ -1,22 +1,8 @@
 [
     {
         "id": "inicial",
-        "tipo": "imagem",
-        "url_imagem": "http://pintouconhecimento.com.br/img/logos/jornalintor.jpg",
-        "proximo_passo": "img_pintou_conhecimento_boas_vindas",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "img_pintou_conhecimento_boas_vindas",
-        "tipo": "imagem",
-        "url_imagem": "http://pintouconhecimento.com.br/img/logo.png",
-        "proximo_passo": "boas_vindas",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "boas_vindas",
         "tipo": "simples",
-        "texto": "{{cumprimento}}\n\nO *Curso de Especialização Pintou Conhecimento* agradece o seu contato. Como podemos te ajudar?",
+        "texto": "{{cumprimento}}\n\nO *Seja bem vindo*. Como podemos te ajudar?",
         "proximo_passo": "menu_principal",
         "proximo_passo_imediato": true
     },
@@ -27,64 +13,46 @@
         "opcoes": [
             {
                 "id": "menu_principal_1",
-                "titulo": "Curso",
-                "descricao": "Mais informações como Grade, Valor e etc",
+                "titulo": "Opção 1 menu inicial",
+                "descricao": "Descrição opção 1 menu inicial",
                 "proximo_passo": "menu_principal_1"
             },
             {
                 "id": "menu_principal_2",
-                "titulo": "Como funciona",
+                "titulo": "Opção 2 menu inicial",
                 "descricao": "",
                 "proximo_passo": "menu_principal_2"
             },
             {
                 "id": "menu_principal_3",
-                "titulo": "Matricula",
-                "descricao": "Como fazer a matricula",
+                "titulo": "Opção 3 menu inicial",
+                "descricao": "Descrição opção 3 menu inicial",
                 "proximo_passo": "menu_principal_3"
-            },
-            {
-                "id": "menu_principal_4",
-                "titulo": "Mais informações",
-                "descricao": "",
-                "proximo_passo": "menu_principal_4"
             }
         ]
     },
     {
         "id": "menu_principal_1",
         "tipo": "lista",
-        "texto": "O que deseja saber sobre o curso?",
+        "texto": "Sub menu, opção 1",
         "opcoes": [
             {
                 "id": "menu_principal_1_1",
-                "titulo": "Grade Curricular",
-                "descricao": "Matérias abordadas nas Aulas",
+                "titulo": "Opção 1 sub menu",
+                "descricao": "",
                 "proximo_passo": "menu_principal_1_1"
             },
             {
                 "id": "menu_principal_1_2",
-                "titulo": "Valor",
+                "titulo": "Opção 2 sub menu",
                 "descricao": "",
                 "proximo_passo": "menu_principal_1_2"
             },
             {
                 "id": "menu_principal_1_3",
-                "titulo": "Material Didático",
-                "descricao": "",
+                "titulo": "Opção 3 sub menu",
+                "descricao": "Menu com imagem",
                 "proximo_passo": "menu_principal_1_3"
-            },
-            {
-                "id": "menu_principal_1_4",
-                "titulo": "Horário das Aulas",
-                "descricao": "",
-                "proximo_passo": "menu_principal_1_4"
-            },
-            {
-                "id": "menu_principal_1_5",
-                "titulo": "Certificado de Conclusão",
-                "descricao": "",
-                "proximo_passo": "menu_principal_1_5"
             }
         ],
         "voltar_anterior": "menu_principal"
@@ -92,71 +60,29 @@
     {
         "id": "menu_principal_1_1",
         "tipo": "simples",
-        "texto": "*Grade Curricular*\n\nO curso tem caráter de especialização e será dividido em cinco módulos, sendo três deles técnicos, um sobre cores e outro de gestão de negócios.\n\nAula 1: \n-> Tecnologia de Tintas e Formulações – NBR 15.079\n\nAula 2: \n-> Preparação de Superfícies e Substratos – NBR 13.245\n\nAula 3:\n-> Ciências das Cores\n\nAula 4:\n-> Patologias em Superfícies de Tintas e suas Correções – NBR 13.245\n\nAula 5:\n-> Gestão de Negócios, Segurança e Meio Ambiente – NBR 15.927",
-        "proximo_passo": "mais_informacoes_menu_principal_1_1",
+        "texto": "*Opção 1 sub menu*\n\nDescrição Teste sub menu opção 1",
+        "proximo_passo": "msg_te_ajudo_mais",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_2",
         "tipo": "simples",
-        "texto": "*Valor*\n\nO valor do investimento do curso será de R$499,00.",
-        "proximo_passo": "faca_matricula_menu_principal",
+        "texto": "*Opção 1 sub menu*\n\nDescrição Teste sub menu opção 1",
+        "proximo_passo": "msg_te_ajudo_mais",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_3",
-        "tipo": "simples",
-        "texto": "*Material Didádico*\n\nComo material didático, o aluno receberá o livro *MANUAL TÉCNICO DE PINTURA E TECNOLOGIA EM TINTAS PINTOR PROFISSIONAL*, com todo o conteúdo do curso para que ele possa fazer as suas pesquisas futuras.\nO curso se dará em sala de aula online com apresentações de PowerPoint preparados exclusivamente para o curso.\n\n*Importante:*\nAs apresentações de PowerPoint usadas em sala de aula, *não serão fornecidas em hipótese alguma para o aluno*, o mesmo também não poderá filmar e nem fotografar o conteúdo ministrado em sala de aula. \nAs apresentações de PowerPoint do Curso Pintou Conhecimento assim como o livro são protegidos por direitos autorais, não podendo ser realizadas cópias sob pena de sanções da lei.",
-        "proximo_passo": "mais_informacoes_menu_principal_1_3",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "menu_principal_1_4",
-        "tipo": "simples",
-        "texto": "*Horário das aulas*\n\nSegunda à sexta-feira das 19:00 as 22:30",
-        "proximo_passo": "faca_matricula_menu_principal",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "menu_principal_1_5",
-        "tipo": "simples",
-        "texto": "*Certificado de Conclusão*\n\nO aluno que concluir o curso, receberá um certificado de conclusão que terá validade nacional como curso de especialização técnica profissionalizante. Assinado por um Químico Responsável com ênfase em licenciatura e com CRQ ativo junto ao CRQ IV Região com validade nacional.\n\n A seguir o modelo do nosso certificado:",
-        "proximo_passo": "menu_principal_1_5_imagem_frente",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "menu_principal_1_5_imagem_frente",
         "tipo": "imagem",
-        "url_imagem": "http://www.pintouconhecimento.com.br/img/certificado_frente.jpeg",
-        "proximo_passo": "menu_principal_1_5_imagem_verso",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "menu_principal_1_5_imagem_verso",
-        "tipo": "imagem",
-        "url_imagem": "http://www.pintouconhecimento.com.br/img/certificado_verso.jpeg",
-        "proximo_passo": "faca_matricula_menu_principal",
+        "url_imagem": "https://storage.googleapis.com/static.meupc.net/wp/1/2021/04/pagina-codigo-fonte.jpg",
+        "proximo_passo": "msg_te_ajudo_mais",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_2",
         "tipo": "simples",
-        "texto": "*Como funciona*\n\nO curso é online com professor ao vivo, isto é, você estará interagindo diretamente com professor no ambiente online, qualquer dúvida ou questionamento pode ser resolvido diretamente ao vivo com professor.\nPor ser online, o curso terá abrangência nacional. Podendo qualquer pessoa de qualquer lugar do Brasil realizar o curso.",
-        "proximo_passo": "faca_matricula_menu_principal",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "menu_principal_3",
-        "tipo": "simples",
-        "texto": "*Matrícula*\n\nAcesse o site:\n\nwww.pintouconhecimento.com.br/matricula.php\n\nPreencha a ficha de cadastro para fazer sua pré inscrição e garantir sua vaga.",
+        "texto": "*Opção 2 menu principal*\n\nDescrição opção 2 menu principal",
         "proximo_passo": "msg_te_ajudo_mais",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "menu_principal_4",
-        "tipo": "simples",
-        "texto": "Para mais informações, acesse o site:\n\nwww.pintouconhecimento.com.br",
-        "proximo_passo": "faca_matricula_menu_principal",
         "proximo_passo_imediato": true
     },
     {
@@ -176,7 +102,7 @@
             },
             {
                 "id": "nao",
-                "proximo_passo": "img_pintou_conhecimento_final"
+                "proximo_passo": "msg_final"
             },
             {
                 "id": "nao_entendimento",
@@ -192,51 +118,9 @@
         "proximo_passo_imediato": true
     },
     {
-        "id": "mais_informacoes_menu_principal_1_1",
-        "tipo": "simples",
-        "texto": "Para mais informações, acesse o link abaixo e veja grade completa:\n\nhttp://pintouconhecimento.com.br/grade.pdf",
-        "proximo_passo": "faca_matricula_menu_principal",
-        "proximo_passo_imediato": true
-    },
-	{
-        "id": "mais_informacoes_menu_principal_1_3",
-        "tipo": "simples",
-        "texto": "Para mais informações, acesse o site:\n\nwww.pintouconhecimento.com.br",
-        "proximo_passo": "faca_matricula_menu_principal",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "faca_matricula_menu_principal",
-        "tipo": "simples",
-        "texto": "*Não perca tempo, faça sua pré inscrição agora mesmo acessando o link abaixo:*\n\nwww.pintouconhecimento.com.br/matricula.php",
-        "proximo_passo": "msg_te_ajudo_mais",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "img_pintou_conhecimento_final",
-        "tipo": "imagem",
-        "url_imagem": "http://pintouconhecimento.com.br/img/logo.png",
-        "proximo_passo": "img_jornal_pintor_final",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "img_jornal_pintor_final",
-        "tipo": "imagem",
-        "url_imagem": "http://pintouconhecimento.com.br/img/logos/jornalintor.jpg",
-        "proximo_passo": "img_radio_final",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "img_radio_final",
-        "tipo": "imagem",
-        "url_imagem": "http://pintouconhecimento.com.br/img/logos/jornalintor_radio.jpg",
-        "proximo_passo": "msg_final",
-        "proximo_passo_imediato": true
-    },
-    {
         "id": "msg_final",
         "tipo": "simples",
-        "texto": "O *Curso de Especialização Pintou Conhecimento* agradece o seu contato!",
+        "texto": "*Obrigado* por usar o Wpp-Bot.\n\nAté a próxima =)",
         "proximo_passo": "inicial"
     }
 ]
