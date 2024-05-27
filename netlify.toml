@@ -5,6 +5,3 @@
 [build.environment]
   NODE_ENV = "production"
   SHARP_IGNORE_GLOBAL_LIBVIPS = "true"
-
-[[plugins]]
-  package = "@netlify/plugin-functions-install-node-modules"
