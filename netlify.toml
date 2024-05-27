@@ -1,2 +1,2 @@
 [build]
-  command = "npm install --include=optional sharp"
+  command = "npm install --include=optional sharp && npm run start"
