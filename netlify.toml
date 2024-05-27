@@ -1,2 +1,3 @@
 [build]
-  command = "npm install --os=linux --cpu=x64 sharp"
+  command = "npm run netlify-build"
+  publish = "build"

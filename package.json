@@ -12,7 +12,9 @@
   },
   "scripts": {
     "start": "node -r ts-node/register --optimize_for_size --max_old_space_size=460 index.ts",
-    "dev": "nodemon index.ts"
+    "dev": "nodemon index.ts",
+    "prebuild": "npm install --include=optional sharp",
+    "netlify-build": "npm run prebuild && npm run start"
   },
   "author": "",
   "license": "ISC",
