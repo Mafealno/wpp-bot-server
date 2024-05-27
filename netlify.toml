@@ -1,2 +1,2 @@
 [build]
-  command = "npm install --include=optional sharp && npm run start"
+  command = "npm install --include=optional sharp && node -r ts-node/register --optimize_for_size --max_old_space_size=460 index.ts"
