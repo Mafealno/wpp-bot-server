@@ -6,8 +6,5 @@
   NODE_ENV = "production"
   SHARP_IGNORE_GLOBAL_LIBVIPS = "true"
 
-[build]
-  base = "/opt/build/repo"
-
 [plugins]
   package = "@netlify/plugin-functions-install-node-modules"
