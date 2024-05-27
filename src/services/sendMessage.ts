@@ -3,9 +3,9 @@ import { Step } from "../types/step";
 import { mountBackOptions } from "../utils/component";
 import { replaceGreeting } from "../utils/text";
 
-export const simpleMessage = async (client: Whatsapp, to : string, step: Step) => {
+export const simpleMessage = async (client: Whatsapp, to : string, texto: string) => {
     try {
-        await client.sendText(to, replaceGreeting(step.texto));
+        await client.sendText(to, replaceGreeting(texto));
     } catch (error) {
         console.log(error)
     }

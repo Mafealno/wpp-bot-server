@@ -36,6 +36,11 @@ export const resolveMessage = async (message : Message, client : Whatsapp) => {
         message.body =  "goto"
     }
 
+    if(currenStep == undefined) {
+        currenStep = await getStep(lastInteraction.currentStep, null);
+        await simpleMessage(client, message.from, currenStep.texto_erro)
+    }
+
     const stepId = await defineAction(currenStep, client, message);
 
     if(lastInteraction)
@@ -54,7 +59,7 @@ const defineAction = async (step : Step, client : Whatsapp, message : Message) :
         let response : string;
         switch (step.tipo) {
             case "simples":
-                await simpleMessage(client, message.from, step);
+                await simpleMessage(client, message.from, step.texto);
                 break;
             case "lista":
                 await listMessage(client, message.from, step);

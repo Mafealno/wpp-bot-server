@@ -10,7 +10,8 @@ export type Step = {
     url?: string,
     opcoes?: Array<ItemMenu>
     botoes?: Array<ItemBotao>
-    proximo_passo_imediato?: boolean
+    proximo_passo_imediato?: boolean,
+    texto_erro?: string
 };
 
 export type ItemMenu = {
