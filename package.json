@@ -13,12 +13,14 @@
   "scripts": {
     "dev": "nodemon index.ts",
     "clean": "rm -rf node_modules && rm -rf package-lock.json && rm -rf yarn.lock",
-    "build": "yarn install && yarn add --os=linux --cpu=x64 sharp && yarn start",
     "start": "node -r ts-node/register index.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
     "@firebase/firestore-types": "^2.5.0",
     "@google-cloud/dialogflow": "^6.7.0",
     "@types/dialogflow": "^4.0.4",

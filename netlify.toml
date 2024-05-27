@@ -1,7 +1,0 @@
-[build]
-  command = "yarn clean && yarn build"
-  publish = "public"
-
-[build.environment]
-  NODE_ENV = "production"
-  SHARP_IGNORE_GLOBAL_LIBVIPS = "true"
