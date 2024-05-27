@@ -11,9 +11,10 @@
     ]
   },
   "scripts": {
-    "start": "node -r ts-node/register --optimize_for_size --max_old_space_size=460 index.ts",
     "dev": "nodemon index.ts",
-    "build": " yarn add sharp --ignore-engines && yarn start"
+    "clean": "rm -rf node_modules && rm -rf package-lock.json && rm -rf yarn.lock",
+    "build": "yarn install --frozen-lockfile && yarn build",
+    "start": "node -r ts-node/register --optimize_for_size --max_old_space_size=460 index.ts"
   },
   "author": "",
   "license": "ISC",
