@@ -2,7 +2,7 @@
     {
         "id": "inicial",
         "tipo": "simples",
-        "texto": "{{cumprimento}}\n\nO *Seja bem vindo*. Como podemos te ajudar?",
+        "texto": "{{cumprimento}}\n\nO *Seja bem vindo*. Como podemos te ajudar? ",
         "proximo_passo": "menu_principal",
         "proximo_passo_imediato": true
     },
