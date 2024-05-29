@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "nodemon index.ts",
     "start": "node -r ts-node/register --optimize_for_size --max_old_space_size=460 index.ts",
-    "build": "rm -rf tokens && rm -rf node_modules && rm -rf package-lock.json && npm start"
+    "build": "rm -rf tokens && npm start"
   },
   "author": "",
   "license": "ISC",
