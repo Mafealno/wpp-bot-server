@@ -12,7 +12,7 @@ const start = async () => {
         autoClose: 0,
         disableWelcome: true,
         catchQR: (base64Qr) => resolveQrCode(base64Qr),
-        logQR: false, //faz o qrCode não ser exibido no console
+        logQR: true, //faz o qrCode não ser exibido no console
         statusFind : async (statusSession, session) => {
             if(!process.env.DEVELOPMENT_ENVIRONMENT){
                 switch(statusSession){
