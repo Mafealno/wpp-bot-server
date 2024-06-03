@@ -39,7 +39,6 @@
     "typescript": "^3.9.10"
   },
   "optionalDependencies": {
-    "@img/sharp-linux-arm": "^0.32.6",
-    "@img/sharp-win32-x64": "^0.32.6"
+    "@img/sharp-linux-arm": "^0.32.6"
   }
 }
