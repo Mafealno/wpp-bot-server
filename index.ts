@@ -4,7 +4,7 @@ import { saveSteps } from "./src/repositories/step";
 import { sendMailConnect, sendMailDisconnect } from "./src/services/mail";
 import { resolveMessage } from "./src/services/message";
 import { resolveQrCode } from "./src/services/qrCode";
-const stepsJson = require("./passos.json"); 
+const stepsJson = require("./passos_pintou_conhecimento.json"); 
 
 const start = async () => {
 
