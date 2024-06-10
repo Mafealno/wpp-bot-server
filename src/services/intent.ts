@@ -16,15 +16,3 @@ export const detectYesOrNo = async (message : Message, step: Step) : Promise<str
             return step.opcoes.find(opcao => opcao.id == "nao_entendimento").proximo_passo;
     }
 }
-
-// export const detectName = async (message : Message) : Promise<string> => {
-//     const response = await intentRepository.detectIntent(message.body);
-
-//     if(response.intent.defaultResponsePlatforms[0].toString() == "true"){
-//         return true;
-//     }else if(response.intent.defaultResponsePlatforms[0].toString() == "false"){
-//         return false
-//     }else{
-//         return response.intent.defaultResponsePlatforms[0].toString()
-//     }
-// }

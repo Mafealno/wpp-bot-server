@@ -20,9 +20,15 @@ export const mountBackOptions = (step : Step) => {
         })
     }
 
+    opcoes.push({
+        rowId: "msg_final",
+        title: "Finalizar",
+        description: "Finalizar conversa"
+    })
+
     if(entrou){
         return {
-            title: "Voltar",
+            title: "Outras Opções",
             rows: opcoes
         }
     }else{
