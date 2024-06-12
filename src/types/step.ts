@@ -5,13 +5,13 @@ export type Step = {
     proximo_passo: string,
     voltar_anterior?: string,
     voltar_inicial?: string,
-    url_imagem?: string,
+    url_arquivo?: string,
     titulo?: string,
     url?: string,
     opcoes?: Array<ItemMenu>
     botoes?: Array<ItemBotao>
     proximo_passo_imediato?: boolean,
-    texto_erro?: string
+    texto_erro?: string,
 };
 
 export type ItemMenu = {

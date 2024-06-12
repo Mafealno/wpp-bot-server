@@ -26,7 +26,7 @@ export const linkMessage = async (client: Whatsapp, to : string, step: Step) => 
 export const linkImageMessage = async (client: Whatsapp, to : string, step: Step) => {
     try {
         await client.sendMessageWithThumb(
-            step.url_imagem,
+            step.url_arquivo,
             step.url,
             replaceGreeting(step.titulo), 
             replaceGreeting(step.texto), 
@@ -40,7 +40,7 @@ export const imageMessage = async (client: Whatsapp, to : string, step: Step) =>
     try {
         const response = await client.sendImage(
             to,
-            step.url_imagem,
+            step.url_arquivo,
         );
         return response;
     } catch (error) {
@@ -79,4 +79,17 @@ export const listMessage = async (client: Whatsapp, to : string, step : Step) =>
     } catch (error) {
         console.log(error)
     }
+}
+
+export const fileMessage = async (client: Whatsapp, to : string, step: Step) => {
+    try {
+        const response = await client.sendFile(
+            to,
+            step.url_arquivo
+        );
+        return response;
+    } catch (error) {
+        console.log(error)
+    }
+
 }

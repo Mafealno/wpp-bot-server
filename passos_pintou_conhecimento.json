@@ -80,10 +80,10 @@
                 "proximo_passo": "menu_principal_1_8"
             },
             {
-                "id": "menu_principal_1_9",
+                "id": "menu_principal_1_10",
                 "titulo": "Outras informações",
                 "descricao": "",
-                "proximo_passo": "menu_principal_1_9"
+                "proximo_passo": "menu_principal_1_10"
             }
         ],
         "texto_erro": "Não entendi, por favor, escolha uma das opções do menu",
@@ -92,56 +92,56 @@
     {
         "id": "menu_principal_1_1",
         "tipo": "simples",
-        "texto": "*Como funciona?*\n\nPintou Conhecimento Pintura Profissional é um curso de especialização e aprimoramento para o profissional que tem a pintura como objeto de trabalho, visando entregar conteúdos técnicos normativos completamente diferenciado no mercado, potencializando suas competências técnicas e agregando valor e melhoria contínua do profissional de pintura.\nO curso Pintou Conhecimento entregará ao aluno competências técnicas claras e objetivas para torna-lo um verdadeiro Consultor Técnico de Pintura Imobiliária.\n\n*- Curso ao vivo com professor presencial!!!*",
+        "texto": "*Como funciona?*\n\nPintou Conhecimento Pintura Profissional é um curso de especialização e aprimoramento para o profissional que tem a pintura como objeto de trabalho, visando entregar conteúdos técnicos normativos completamente diferenciado no mercado, potencializando suas competências técnicas e agregando valor e melhoria contínua do profissional de pintura.\nO curso Pintou Conhecimento entregará ao aluno competências técnicas claras e objetivas para torna-lo um verdadeiro Consultor Técnico de Pintura Imobiliária.\n\n*- Aulas online com professor ao vivo*",
         "proximo_passo": "msg_matricule_se_ja",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_2",
         "tipo": "simples",
-        "texto": "*Grade curricular*\n\nO curso está dividido em cinco módulos, sendo três deles técnicos, um sobre cores e outro de gestão de negócio.\n\n*Aula 1* - Segunda Feira\nAula normativa NBR 15079 - Tecnologia de Tintas e Formulações\n\n*Aula 2* - Terça Feira\nAula normativa NBR 13.245 e 11.702 - Preparação de Superfícies e Substratos de Pinturas\n\n*Aula 3* - Quarta Feira\nCiência das Cores - O que é e como Indicar\n\n*Aula 4* - Quinta Feira\nPatologias em Superfícies de Tintas e Pinturas - NBR 13.245 e NBR 17.170\n\n*Aula 5* - Sexta Feira\nGestão de Negócios e Segurança\n\n*Mais informações acesse o site:* www.pintouconhecimento.com.br",
+        "texto": "*Grade curricular*\n\nO curso está dividido em cinco módulos, sendo três deles técnicos, um sobre cores e outro de gestão de negócio.\n\n*Aula 1*\nAula normativa NBR 15079 - Tecnologia de Tintas e Formulações\n\n*Aula 2*\nAula normativa NBR 13.245 e 11.702 - Preparação de Superfícies e Substratos de Pinturas\n\n*Aula 3*\nCiência das Cores - O que é e como Indicar\n\n*Aula 4*\nPatologias em Superfícies de Tintas e Pinturas - NBR 13.245 e NBR 17.170\n\n*Aula 5*\nGestão de Negócios e Segurança\n\n*Mais informações acesse o site:* www.pintouconhecimento.com.br",
         "proximo_passo": "msg_matricule_se_ja",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_3",
         "tipo": "simples",
-        "texto": "*Horário das aulas*\n\n*Dias de Aulas:* Segunda a Sexta-feira\n*Horário das aulas:* 19 às 21h (ao vivo com professor presencial)\n*Local das aulas online:* Plataforma Microsoft Teams\n*Importante:* Em caso de feriado nacional, a aula será realizada no próximo dia útil subsequente, com reposição automática no sábado seguinte.",
+        "texto": "*Horário das aulas*\n\n*Dias de Aulas:* Segunda a Sexta-feira\n*Horário das aulas:* 19 às 21h (aula online com professor *ao vivo*)\n*Local das aulas online:* Plataformas de video conferência (Google Meet, Microsoft Teams e etc)",
         "proximo_passo": "msg_matricule_se_ja",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_4",
         "tipo": "simples",
-        "texto": "*Material didático*\n\nO material didático fornecido será o Livro *PINTOU CONHECIMENTO - TECNOLOGIA EM TINTAS E PINTURAS IMOBILIÁRIAS (versão e-book)*, com 270 páginas e totalmente sem custo com todo o conteúdo do curso para que o aluno possa fazer uso e pesquisas futuras.",
+        "texto": "*Material didático*\n\nO material didático fornecido será o Livro *PINTOU CONHECIMENTO - TECNOLOGIA EM TINTAS E PINTURAS IMOBILIÁRIAS (versão e-book)*, sem custo adicional, com todo o conteúdo do curso.",
         "proximo_passo": "msg_matricule_se_ja",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_5",
         "tipo": "simples",
-        "texto": "*Certificado*\n\nSerá emitido eletronicamente o certificado de conclusão do curso.\nA presença mínima exigida é de 75% da carga horária prevista do curso.\nO certificado terá o conteúdo programático do curso no verso, em conformidade com a norma NBR 15.927 e com a regulamentação da Lei nº. 9394/96 e Decreto nº. 5.154/04, além da Deliberação CEE 14/97 (Indicação CEE 14/97).",
+        "texto": "*Certificado*\n\nSerá emitido eletronicamente.\nA presença mínima exigida é de 75% da carga horária prevista.\nNo verso do certificado constará todo o conteúdo programático.",
         "proximo_passo": "msg_matricule_se_ja",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_5_imagem_frente",
         "tipo": "imagem",
-        "url_imagem": "http://www.pintouconhecimento.com.br/img/certificado_frente.jpeg",
+        "url_arquivo": "https://www.pintouconhecimento.com.br/img/certificado_frente02.jpeg",
         "proximo_passo": "menu_principal_1_5_imagem_verso",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_5_imagem_verso",
         "tipo": "imagem",
-        "url_imagem": "http://www.pintouconhecimento.com.br/img/certificado_verso.jpeg",
+        "url_arquivo": "https://www.pintouconhecimento.com.br/img/certificado_verso02.jpeg",
         "proximo_passo": "menu_principal_1_5",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_6",
         "tipo": "simples",
-        "texto": "*Valor do curso*\n\nO valor total do curso é de R$ 299,90 podendo ser pago da seguinte forma:\n\n1 – Pix\n2 – Cartão de Crédito em 10 vezes (verificar valores com o financeiro do curso)\n3 – Boleto (pagamento único)\n\n*Pintores profissionais terão 10% de desconto\n**Seguidores do Instagram terão 5% de desconto",
+        "texto": "*Valor do curso*\n\nO valor total do curso é de R$ 299,90 podendo ser pago da seguinte forma:\n\n1 – Pix\n2 – Cartão de Crédito em 10 vezes *(verificar valores no ato de pagamento)*\n3 – Boleto (pagamento único)\n\n*Pintores profissionais terão 10% de desconto\n**Seguidores do Instagram terão 5% de desconto\n\n*Descontos não acumulativos*",
         "proximo_passo": "msg_matricule_se_ja",
         "proximo_passo_imediato": true
     },
@@ -149,20 +149,27 @@
         "id": "menu_principal_1_7",
         "tipo": "simples",
         "texto": "*Como se matricular*\n\nPara se matricular acesse o site:\nhttps://www.pintouconhecimento.com.br/matricula.php",
-        "proximo_passo": "msg_matricule_se_ja",
+        "proximo_passo": "menu_principal_1",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_8",
         "tipo": "simples",
-        "texto": "*O professor*\n\n- Graduação em Química\n- Especialização em Tecnologia de Tintas pela ABRAFATI\n- Especialização em Tecnologia de Concreto e Aço pelo Instituto Falcão Bauer\n- Pós graduado em Tratamento de Superfície e Proteção pela Faculdade Oswaldo Cruz\n- Pós graduado em Tecnologias Aplicadas a Educação Química\n- MBA em Gestão de Negócios pela FMU\n- Profissional com atuação de 26 anos na indústria química de tintas e como consultor técnico.",
+        "texto": "*O professor*\n\n- Graduação em Química\n- Especialização em Tecnologia de Tintas pela ABRAFATI\n- Especialização em Tecnologia de Concreto e Aço pelo Instituto Falcão Bauer\n- Pós Graduação em Tratamento de Superfície e Proteção pela Faculdade Oswaldo Cruz\n- Pós Graduação em Tecnologias Aplicadas a Educação Química\n- MBA em Gestão de Negócios pela FMU\n- Profissional com atuação de 26 anos na indústria química de tintas e como consultor técnico.",
         "proximo_passo": "msg_matricule_se_ja",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_1_9",
         "tipo": "simples",
-        "texto": "*Outras informações*\n\nPara mais informações, envie através do email matricula@pintouconhecimento.com.br",
+        "texto": "*Outras informações*\n\nPara mais informações, acesse o site https://www.pintouconhecimento.com.br",
+        "proximo_passo": "msg_matricule_se_ja",
+        "proximo_passo_imediato": true
+    },
+    {
+        "id": "menu_principal_1_10",
+        "tipo": "arquivo",
+        "url_arquivo": "https://www.pintouconhecimento.com.br/grade.pdf",
         "proximo_passo": "msg_matricule_se_ja",
         "proximo_passo_imediato": true
     },
@@ -197,14 +204,14 @@
         "id": "menu_principal_2_1",
         "tipo": "simples",
         "texto": "*O livro*\n\nO livro Pinto Conhecimento Tecnologia em Tintas e Pinturas Imobiliárias, *o primeiro e único livro do gênero* específico para o segmento de pintura imobiliária.\nO livro é assinado e validado para Racz & Yamada, a maior consultoria de tintas da América latina\nCom 270 páginas distribuídas em oito capítulos, você encontrará um mergulho profundo na arte da pintura profissional com enfoque no conhecimento da natureza das tintas imobiliárias e suas aplicações, além de abordar as ciências da cores, gestão de negócios e a maior leque de patologias de pinturas imobiliárias disponível e uma única literatura.\n*É considerado um livro de cabeceira para todos os profissionais* que tem a pintura com objeto de trabalho.\nAdquira o livro e use sem moderações.",
-        "proximo_passo": "msg_te_ajudo_mais_menu_principal_2",
+        "proximo_passo": "msg_compre_ja_livro",
         "proximo_passo_imediato": true
     },
     {
         "id": "menu_principal_2_2",
         "tipo": "simples",
         "texto": "*Conteúdo*\n\n*1 - Tecnologia em Tintas*\nA TINTA, A FORMULAÇÃO E A QUALIDADE - NBR 15.079\n\n*2 – Substrato e Superfícies*\nPROPRIEDADES DA SUPERFÍCE E PRODUTOS - NBR 11.702\n\n*3 – Ferramentas de Pintura, Medição e Controle*\nFERRAMENTAS E ACESSÓRIOS\n\n*4 – Aplicação de Tintas – NBR 15.927*\nPREPARAÇÃO E APLICAÇÃO - NBR 13.245\n\n*5 – Ciências das Cores*\nUM ESTUDO SOBRE CORES\n\n*6 – Orçamento, Planejamento e Execução*\nCONTROLE DE OBRA E RENTABILIDADE\n\n*7 – Patologias em Superfícies de Pintura*\nPROBLEMAS E SOLUÇÕES\n\n*8 - Segurança e Meio Ambiente*\nDESCARTE DE TINTAS",
-        "proximo_passo": "msg_te_ajudo_mais_menu_principal_2",
+        "proximo_passo": "msg_compre_ja_livro",
         "proximo_passo_imediato": true
     },
     {
@@ -282,7 +289,14 @@
         "id": "msg_matricule_se_ja",
         "tipo": "simples",
         "texto": "*Não perca mais tempo, faça sua inscrição acessando o link abaixo:*\n\nhttps://www.pintouconhecimento.com.br/matricula.php",
-        "proximo_passo": "msg_te_ajudo_mais_menu_principal_1",
+        "proximo_passo": "menu_principal_1",
+        "proximo_passo_imediato": true
+    },
+    {
+        "id": "msg_compre_ja_livro",
+        "tipo": "simples",
+        "texto": "*Não perca mais tempo, compre já o seu:*\n\nhttps://books.google.com.br/books/about/PINTOU_CONHECIMENTO.html?id=w2bDEAAAQBAJ&redir_esc=y",
+        "proximo_passo": "msg_te_ajudo_mais_menu_principal_2",
         "proximo_passo_imediato": true
     },
     {

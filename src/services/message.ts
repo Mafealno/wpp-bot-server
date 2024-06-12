@@ -2,7 +2,7 @@ import { Message, Whatsapp } from "@wppconnect-team/wppconnect";
 import { Step } from "../types/step";
 import { detectYesOrNo } from "./intent";
 import * as lasInterationService from "./lasInteration";
-import { simpleMessage, listMessage, linkMessage, imageMessage, linkImageMessage } from "./sendMessage";
+import { simpleMessage, listMessage, linkMessage, imageMessage, linkImageMessage, fileMessage } from "./sendMessage";
 import { getStep } from "./step";
 
 export const resolveMessage = async (message : Message, client : Whatsapp) => {
@@ -72,6 +72,9 @@ const defineAction = async (step : Step, client : Whatsapp, message : Message) :
                 break;
             case "link_imagem":
                 await linkImageMessage(client, message.from, step)
+                break;
+            case "arquivo":
+                await fileMessage(client, message.from, step)
                 break;
             case "valida_sim_ou_nao":
                 response = await detectYesOrNo(message, step)
