@@ -80,10 +80,10 @@
                 "proximo_passo": "menu_principal_1_8"
             },
             {
-                "id": "menu_principal_1_10",
+                "id": "menu_principal_1_9",
                 "titulo": "Outras informações",
                 "descricao": "",
-                "proximo_passo": "menu_principal_1_10"
+                "proximo_passo": "menu_principal_1_9"
             }
         ],
         "texto_erro": "Não entendi, por favor, escolha uma das opções do menu",
@@ -162,14 +162,7 @@
     {
         "id": "menu_principal_1_9",
         "tipo": "simples",
-        "texto": "*Outras informações*\n\nPara mais informações, acesse o site https://www.pintouconhecimento.com.br",
-        "proximo_passo": "msg_matricule_se_ja",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "menu_principal_1_10",
-        "tipo": "arquivo",
-        "url_arquivo": "https://www.pintouconhecimento.com.br/grade.pdf",
+        "texto": "*Outras informações*\n\nPara mais informações, acesse o pdf https://www.pintouconhecimento.com.br/grade.pdf",
         "proximo_passo": "msg_matricule_se_ja",
         "proximo_passo_imediato": true
     },
