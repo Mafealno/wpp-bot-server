@@ -211,71 +211,7 @@
         "id": "menu_principal_2_3",
         "tipo": "simples",
         "texto": "*Custo e como comprar*\n\nO livro se apresenta na somente na versão e-book com custo de R$ 89,90.\n\nPodendo ser adquirido no link abaixo:\n\nhttps://books.google.com.br/books/about/PINTOU_CONHECIMENTO.html?id=w2bDEAAAQBAJ&redir_esc=y",
-        "proximo_passo": "msg_te_ajudo_mais_menu_principal_2",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "msg_te_ajudo_mais_menu_principal_1",
-        "tipo": "simples",
-        "texto": "Podemos te ajudar em algo mais? (Sim/Não)",
-        "proximo_passo": "valida_te_ajudo_mais_menu_principal_1"
-    },
-    {
-        "id": "msg_te_ajudo_mais_menu_principal_2",
-        "tipo": "simples",
-        "texto": "Podemos te ajudar em algo mais? (Sim/Não)",
-        "proximo_passo": "valida_te_ajudo_mais_menu_principal_2"
-    },
-    {
-        "id": "valida_te_ajudo_mais_menu_principal_1",
-        "tipo": "valida_sim_ou_nao",
-        "proximo_passo_imediato": true,
-        "opcoes":[
-            {
-                "id": "sim",
-                "proximo_passo": "menu_principal_1"
-            },
-            {
-                "id": "nao",
-                "proximo_passo": "msg_final"
-            },
-            {
-                "id": "nao_entendimento",
-                "proximo_passo": "msg_nao_entendimento"
-            }
-        ]
-    },
-    {
-        "id": "valida_te_ajudo_mais_menu_principal_2",
-        "tipo": "valida_sim_ou_nao",
-        "proximo_passo_imediato": true,
-        "opcoes":[
-            {
-                "id": "sim",
-                "proximo_passo": "menu_principal_2"
-            },
-            {
-                "id": "nao",
-                "proximo_passo": "msg_final"
-            },
-            {
-                "id": "nao_entendimento",
-                "proximo_passo": "msg_nao_entendimento"
-            }
-        ]
-    },
-    {
-        "id": "msg_nao_entendimento_menu_principal_1",
-        "tipo": "simples",
-        "texto": "Não consegui entender",
-        "proximo_passo": "msg_te_ajudo_mais_menu_principal_1",
-        "proximo_passo_imediato": true
-    },
-    {
-        "id": "msg_nao_entendimento_menu_principal_2",
-        "tipo": "simples",
-        "texto": "Não consegui entender",
-        "proximo_passo": "msg_te_ajudo_mais_menu_principal_2",
+        "proximo_passo": "menu_principal_2",
         "proximo_passo_imediato": true
     },
     {
@@ -289,7 +225,7 @@
         "id": "msg_compre_ja_livro",
         "tipo": "simples",
         "texto": "*Não perca mais tempo, compre já o seu:*\n\nhttps://books.google.com.br/books/about/PINTOU_CONHECIMENTO.html?id=w2bDEAAAQBAJ&redir_esc=y",
-        "proximo_passo": "msg_te_ajudo_mais_menu_principal_2",
+        "proximo_passo": "menu_principal_2",
         "proximo_passo_imediato": true
     },
     {
